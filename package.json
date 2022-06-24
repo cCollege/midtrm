@@ -1,5 +1,5 @@
 {
-  "name": "COMP229-W2022-MidTerm-301218602",
+  "name": "COMP229-W2020-Midterm-301138320",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
     "cookie-parser": "^1.4.5",
     "debug": "~2.6.9",
     "dotenv": "^16.0.0",
-    "ejs": "~2.5.7",
+    "ejs": "^3.1.8",
     "express": "~4.16.0",
     "express-session": "^1.17.1",
     "font-awesome": "^4.7.0",
@@ -53,7 +53,7 @@
     "ExpressJS",
     "EJS"
   ],
-  "author": "Ronald Saenz Huerta",
+  "author": "Joel VANGA",
   "license": "ISC",
   "bugs": {
     "url": ""

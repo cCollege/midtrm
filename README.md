@@ -1,4 +1,4 @@
-# COMP229-W2022-MidTerm-301218602
+# COMP229-W2020-MidTerm-301138320
 
 ## Welcome to the MidTerm Project - the Favourite Book List App
 
@@ -8,21 +8,21 @@ This project was created to practice the creation of Website using ExpressJS.
 
 Relevant Information:
 - College: Centennial College
-- Program: Software Engineering Technology - Artificial Intelligence
+- Program: Software Engineering Technician (Fast Track)
 - Term: Winter 2022
-- Course: Web Application Development (SEC. 001) - COMP229001_2022W
-- Student Name: Ronald Saenz Huerta
-- Student Id: 301218602
+- Course: Web Application Development (SEC. 005) - COMP229
+- Student Name: Joel VANGA
+- Student Id: 301138320
 
-## Mid-Term Test 
+## MidTerm Test 
 
 MidTerm Project - the Favourite Book List App
 
-Due: March 7, 2022
+Due: Week 7 / Friday @ midnight / 2022
 
 Project Setup:
 
-- Rename the Web App Template provided to COMP229-W2022-MidTerm-[YourStudentID]. (e.g. COMP229-W2022-MidTerm-300929668).
+- Rename the Web App Template provided to COMP229-W2020-MidTerm-[YourStudentID].
 - You will need to create a new Mongo Database on MongoDB Atlas. You will need to change the URI variable in the db config file (config/db.js) to point MongoDB Atlas.
 - You will need to add some example Book data in the database. 
 

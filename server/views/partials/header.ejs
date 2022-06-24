@@ -1,60 +1,75 @@
-<%/**
- * header.ejs
- *
- * Wepp App Name: Mid-Term Test - Favourite Book List App
- * Student Name: Ronald Saenz
- * Student Id: 301218602
- * Date: March 05, 2022
- *
- * @link   partials/header.ejs
- * @file   This file defines the partial view to include the header section with the sidebar section.
- * @author Ronald Saenz <rsaenzh@my.centennialcollege.ca>
- * @since  1.0.0
- */%>
- 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><%= title %></title>
-    <!-- CSS SECTION -->
-    <link rel="stylesheet" href="/Scripts/lib/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/Scripts/lib/bootstrap/dist/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="/Scripts/lib/font-awesome/css/font-awesome.min.css">
-    <link rel='stylesheet' href='/Content/app.css' />
-  </head>
-  <body>
+<%/** * header.ejs * * Web App Name: Midterm Test - Favourite Book List App *
+Student Name: Joel VANGA * Student Id: 301138320 * Date: Friday 24 June 2022 * *
+@link partials/header.ejs * @file This file defines the partial view to include
+the header section with the sidebar section. * @author Joel Vanga
+<jvanga@my.centennialcollege.ca>
+  * @since 1.0.0 */%>
 
-  <nav class="navbar navbar-inverse" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/"><i class="fa fa-bookmark-o"></i> My Favourite Books</a>
-    </div>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title><%= title %></title>
+      <!-- CSS SECTION -->
+      <link
+        rel="stylesheet"
+        href="/Scripts/lib/bootstrap/dist/css/bootstrap.min.css"
+      />
+      <link
+        rel="stylesheet"
+        href="/Scripts/lib/bootstrap/dist/css/bootstrap-theme.min.css"
+      />
+      <link
+        rel="stylesheet"
+        href="/Scripts/lib/font-awesome/css/font-awesome.min.css"
+      />
+      <link rel="stylesheet" href="/Content/app.css" />
+    </head>
+    <body>
+      <nav class="navbar navbar-inverse" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-ex1-collapse"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"
+            ><i class="fa fa-bookmark-o"></i> My Favourite Books</a
+          >
+        </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <% if(title == "Home") { %>
-          <li class="active"><a href="/"><i class="fa fa-home fa-lg"></i> Home</a></li>
-        <% } else { %>
-          <li><a href="/"><i class="fa fa-home fa-lg"></i> Home</a></li>
-        <% } %>
-
-          <% if(title == "books") { %>
-          <li class="active"><a href="/books"><i class="fa fa-book fa-lg">
-          </i> Books List</a></li>
-          <% } else { %>
-            <li><a href="/books"><i class="fa fa-book fa-lg">
-            </i> Books List</a></li>
-          <% } %>
-
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </nav>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <% if(title == "Home") { %>
+            <li class="active">
+              <a href="/"><i class="fa fa-home fa-lg"></i> Home</a>
+            </li>
+            <% } else { %>
+            <li>
+              <a href="/"><i class="fa fa-home fa-lg"></i> Home</a>
+            </li>
+            <% } %> <% if(title == "books") { %>
+            <li class="active">
+              <a href="/books"><i class="fa fa-book fa-lg"> </i> Books List</a>
+            </li>
+            <% } else { %>
+            <li>
+              <a href="/books"><i class="fa fa-book fa-lg"> </i> Books List</a>
+            </li>
+            <% } %>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </nav>
+    </body>
+  </html></jvanga@my.centennialcollege.ca
+>

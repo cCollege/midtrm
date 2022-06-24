@@ -1,14 +1,14 @@
 /**
  * populate_book.js
  *
- * Wepp App Name: Mid-Term Test - Favourite Book List App
- * Student Name: Ronald Saenz
- * Student Id: 301218602
- * Date: March 05, 2022
+ * Wepp App Name: MidTerm Test - Favourite Book List App
+ * Student Name: Joel VANGA
+ * Student Id: 301138320
+ * Date: Friday 24 June 2022
  *
  * @link   populate_book.js
  * @file   This file execute the db population on the Book table
- * @author Ronald Saenz <rsaenzh@my.centennialcollege.ca>
+ * @author Joel VANGA <jvanga@my.centennialcollege.ca>
  * @since  1.0.0
  */
 

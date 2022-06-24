@@ -1,14 +1,14 @@
 /**
  * books.js
  *
- * Wepp App Name: Mid-Term Test - Favourite Book List App
- * Student Name: Ronald Saenz
- * Student Id: 301218602
- * Date: March 05, 2022
+ * Web App Name: MidTerm Test - Favourite Book List App
+ * Student Name: Joel VANGA
+ * Student Id: 301138320
+ * Date: Friday 24 June 2022
  *
  * @link   routes/books.js
  * @file   This file defines the routes to navigate and do actions (CRUD) with the Book Model
- * @author Ronald Saenz <rsaenzh@my.centennialcollege.ca>
+ * @author Joel Vanga <jvanga@my.centennialcollege.ca>
  * @since  1.0.0
  */
 

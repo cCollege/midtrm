@@ -1,6 +1,6 @@
 /* custom JS goes here */
 
-/* pagination code from http://www.bootply.com/lxa0FF9yhw */
+/* pagination code provided by http://www.bootply.com/lxa0FF9yhw */
 $.fn.pageMe = function(opts){
     var $this = this,
         defaults = {
